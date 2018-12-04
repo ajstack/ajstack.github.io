@@ -1,7 +1,8 @@
 import React from "react";
+import "./navbar.css"
 
 const Navbar = () => (
-    <nav>
+    <nav className="navBar">
       <a href="/">
         Home 
       </a>

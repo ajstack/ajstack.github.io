@@ -1,0 +1,14 @@
+.portfolio { 
+    background: url("../../images/fancy-cushion.png"); 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-size: cover; 
+    z-index: -1;
+  }
+
+  .portfolio-title {
+    color: aliceblue;
+  }
