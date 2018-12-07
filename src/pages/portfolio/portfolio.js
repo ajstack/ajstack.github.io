@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Wrapper from "../../components/Wrapper";
 import ProjectCard from "../../components/projectCard";
-import Title from "../../components/title"
+import PortfolioTitle from "../../components/portfolioTitle"
 import projects from "../../assets/projects.json"
 import "./portfolio.css";
 
@@ -15,7 +15,7 @@ class Portfolio extends Component {
         return (
             <div className="portfolio">
                 <Wrapper>
-                    <Title>Portfolio</Title>
+                    <PortfolioTitle>Portfolio</PortfolioTitle>
                     {this.state.projects.map(project => (
                         <ProjectCard
                             id={project.id}

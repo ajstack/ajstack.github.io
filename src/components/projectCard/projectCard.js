@@ -2,11 +2,11 @@ import React from "react";
 import "./projectCard.css"
 
 const ProjectCard = props => (
-  <div className="card">
+  <div className="project-card">
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
-    <div className="content">
+    <div className="project-content">
       <a href={props.link}><h3 className="project-title">{props.name}</h3></a>
     </div>
   </div>

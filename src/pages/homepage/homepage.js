@@ -1,11 +1,12 @@
 import React from "react";
 import "./homepage.css";
+import HomepageTitle from "../../components/homepageTitle"
 
 const Homepage = () => (
-        <div className="homepage">
-            <h1>Homepage Test!</h1>
-            <h2>Test</h2>
-        </div>
+    <div className="homepage">
+        <HomepageTitle>Homepage!</HomepageTitle>
+    </div>
+
 );
 
 export default Homepage;
