@@ -1,13 +1,15 @@
 import React from "react";
 import "./projectCard.css"
 
-const ProjectCard = () => (
+const ProjectCard = props => (
   <div className="card">
-    <h1>
-      Test
-    </h1>
+    <div className="img-container">
+      <img alt={props.name} src={props.image} />
+    </div>
+    <div className="content">
+      <a href={props.link}><h3 className="project-title">{props.name}</h3></a>
+    </div>
   </div>
-
 );
 
 export default ProjectCard;

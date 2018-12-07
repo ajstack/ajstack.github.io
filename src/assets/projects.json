@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "name": "Gem Collector",
+        "image": "./images/opal.png",
+        "link": "https://ajstack.github.io/unit-4-game/"
+    },
+    {
+        "id": 1,
+        "name": "Hangman",
+        "image": "./images/batmanPhoto.jpg",
+        "link": "https://ajstack.github.io/Word-Guess-Game/"
+    },
+    {
+        "id": 2,
+        "name": "Bamazon",
+        "image": "./images/bamazon.gif",
+        "link": "https://github.com/ajstack/bamazon"
+    },
+    {
+        "id": 3,
+        "name": "Train Scheduler",
+        "image": "./images/train.png",
+        "link": "https://ajstack.github.io/Train_Scheduler/"
+    },
+    {
+        "id": 4,
+        "name": "Giftastic!",
+        "image": "./images/dog.jpg",
+        "link": "https://ajstack.github.io/GIFtastic/"
+    }
+]
