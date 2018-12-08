@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ajstack/ajstack.github.io/issues"
   },
-  "homepage": "https://github.com/ajstack/ajstack.github.io#readme"
+  "homepage": "https://github.com/ajstack/ajstack.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
