@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/src/index.js"));
+  res.sendFile(path.join(__dirname, "./client/public/index.html"));
 });
 
 // Start the API server
