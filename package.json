@@ -10,14 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/ajstack/ajstack.github.io.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ajstack/ajstack.github.io/issues"
   },
-  "homepage": "https://github.com/ajstack/ajstack.github.io#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/ajstack/ajstack.github.io#readme"
 }
