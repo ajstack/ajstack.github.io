@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/ajstack/ajstack.github.io/issues"
   },
-  "homepage": "https://github.com/ajstack/ajstack.github.io#readme",
+  "homepage": "https://damp-peak-35757.herokuapp.com/",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
