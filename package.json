@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/ajstack/ajstack.github.io/issues"
   },
-  "homepage": "ajstack.github.io",
+  "homepage": "https://github.com/ajstack/ajstack.github.io#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
