@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/ajstack/ajstack.github.io#readme",
   "engines": {
-    "node": "^8.10.0"
+    "node": "^8.10.0",
+    "yarn": "1.9.4"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
