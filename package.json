@@ -7,6 +7,8 @@
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:prod": "node server.js",
+    "client": "cd client && npm run start",
+    "install": "cd client && yarn install;",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
@@ -21,7 +23,7 @@
     "url": "https://github.com/ajstack/ajstack.github.io/issues"
   },
   "homepage": "https://github.com/ajstack/ajstack.github.io#readme",
-  "devDependencies": {
+  "engines": {
     "node": "^8.10.0"
   },
   "dependencies": {
