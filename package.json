@@ -21,8 +21,8 @@
     "url": "https://github.com/ajstack/ajstack.github.io/issues"
   },
   "homepage": "https://github.com/ajstack/ajstack.github.io#readme",
-  "engines": {
-    "node": "8.10.0"
+  "devDependencies": {
+    "node": "^8.10.0"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
