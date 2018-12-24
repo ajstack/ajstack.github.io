@@ -2,7 +2,8 @@ import React, {Component} from "react";
 import Wrapper from "../../components/Wrapper";
 import ContactTitle from "../../components/contactTitle";
 import ContactInfoCard from "../../components/contactInfoCard";
-import contactInfo from "../../assets/contact.json"
+import contactInfo from "../../assets/contact.json";
+import CreditInfo from "../../components/creditInfo";
 import "./contact.css";
 
 class Contact extends Component {
@@ -24,12 +25,7 @@ class Contact extends Component {
             url={contact.url}
           />
         ))}
-        <div className="credit-info">LinkedIn Icon made by
-          <a href="https://www.freepik.com/" title="Freepik">Freepik</a> and Github icon made by
-          <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from
-          <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> and is licensed by
-          <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC 3.0 BY</a>
-        </div>
+        <CreditInfo />
       </Wrapper>
     </div>
     )
@@ -37,5 +33,3 @@ class Contact extends Component {
 }
 
 export default Contact;
-
-// I want to set up cards that pull from a json like with projects
