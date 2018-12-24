@@ -10,13 +10,13 @@
     float: left;
   }
 
-  .project-card > .img-container {
+  .project-card > .project-img-container {
     height: 60%;
     overflow: hidden;
     text-align: center;
     background:#6CADDC;
   }
-  .project-card > .img-container > img {
+  .project-card > .project-img-container > img {
     width: 60%
   }
   

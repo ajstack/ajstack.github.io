@@ -3,7 +3,7 @@ import "./projectCard.css"
 
 const ProjectCard = props => (
   <div className="project-card">
-    <div className="img-container">
+    <div className="project-img-container">
       <img alt={props.name} src={props.image} />
     </div>
     <div className="project-content">

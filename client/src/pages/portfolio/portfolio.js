@@ -7,29 +7,29 @@ import "./portfolio.css";
 
 class Portfolio extends Component {
 
-    state = {
-        projects
-    };
+  state = {
+    projects
+  };
 
-    render() {
-        return (
-            <div className="portfolio">
-                <Wrapper>
-                    <PortfolioTitle>Portfolio</PortfolioTitle>
-                    {this.state.projects.map(project => (
-                        <ProjectCard
-                            id={project.id}
-                            key={project.id}
-                            image={project.image}
-                            name={project.name}
-                            link={project.link}
-                        />
-                    ))}
+  render() {
+    return (
+      <div className="portfolio">
+        <Wrapper>
+          <PortfolioTitle>Portfolio</PortfolioTitle>
+          {this.state.projects.map(project => (
+            <ProjectCard
+              id={project.id}
+              key={project.id}
+              image={project.image}
+              name={project.name}
+              link={project.link}
+            />
+          ))}
 
-                </Wrapper>
-            </div>
-        )
-    }
+        </Wrapper>
+      </div>
+    )
+  }
 }
 
 export default Portfolio;
