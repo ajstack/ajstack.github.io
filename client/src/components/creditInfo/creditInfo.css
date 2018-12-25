@@ -1,3 +1,6 @@
-.credit-info {
-  bottom: 0px;
+@media only screen and (min-width: 768px) {
+  .credit-info {
+    position: absolute;
+    bottom: 0px;
+  }
 }
