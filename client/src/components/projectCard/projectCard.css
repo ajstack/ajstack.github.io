@@ -15,6 +15,7 @@
     overflow: hidden;
     text-align: center;
     background:#6CADDC;
+    clear: both;
   }
   .project-card > .project-img-container > img {
     width: 60%

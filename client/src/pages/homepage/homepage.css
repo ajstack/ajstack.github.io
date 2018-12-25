@@ -1,5 +1,6 @@
   .homepage { 
     background: url("/images/congruent_pentagon.png"); 
+    height: 100%;
     position: fixed; 
     top: 0; 
     left: 0; 

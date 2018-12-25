@@ -1,7 +1,7 @@
 import React from "react";
 import "./aboutMeCard.css";
 
-const AboutMeCard = props => (
+const AboutMeCard = () => (
   <div className="about-me-card">
     <h1 className="about-me-title">About Me</h1>
     <p className="about-me-content">
@@ -13,6 +13,6 @@ const AboutMeCard = props => (
       Pardon the construction, still busy building a portfolio I can be proud of!
     </p>
   </div>
-)
+);
 
 export default AboutMeCard;

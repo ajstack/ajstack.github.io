@@ -1,6 +1,21 @@
+.portfolio {
+  background: url("/images/fancy-cushion.png"); 
+  min-height: 100%;
+  position: absolute; 
+  background-size: cover; 
+  z-index: -1;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+/* for desktop */
 .portfolio { 
     background: url("/images/fancy-cushion.png"); 
     position: absolute; 
+    background-repeat: repeat;
     top: 0; 
     left: 0; 
     right: 0; 
@@ -8,4 +23,6 @@
     background-size: cover;
     height: 100%; 
     z-index: -1;
+    background-repeat: repeat-y;
   }
+}

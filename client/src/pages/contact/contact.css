@@ -1,3 +1,14 @@
+.contact { 
+  background: url("/images/cloudy-day.png"); 
+  position: absolute;
+  min-height: 100%;
+  background-size: cover; 
+  z-index: -1;
+}
+
+
+
+@media only screen and (min-width: 768px) {
   .contact { 
     background: url("/images/cloudy-day.png"); 
     position: absolute; 
@@ -8,3 +19,4 @@
     background-size: cover; 
     z-index: -1;
   }
+}
