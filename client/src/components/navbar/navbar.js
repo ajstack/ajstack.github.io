@@ -3,14 +3,14 @@ import "./navbar.css"
 
 const Navbar = () => (
     <nav className="navBar">
-      <a href="/">
-        Home 
+      <a className="contact-link" href="/contact">
+        Contact me!
       </a>
-      <a href="/portfolio">
+      <a className="portfolio-link" href="/portfolio">
         Portfolio
       </a>
-      <a href="/contact">
-        Contact me!
+      <a className="home-link" href="/">
+        Home 
       </a>
     </nav>
   );

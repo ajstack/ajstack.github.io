@@ -8,4 +8,5 @@
     bottom: 0; 
     background-size: cover; 
     z-index: -1;
+    padding-top: 25px;
   }
