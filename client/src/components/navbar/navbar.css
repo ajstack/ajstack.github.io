@@ -1,7 +1,5 @@
+/* @import url("https://fonts.googleapis.com/css?family=Pacifico"); */
 .navBar {
-  /* background-image: url("/images/greyfloral.png"); */
-  /* background-size: "cover"; */
-  color: aliceblue;
   height: 100%;
   padding-bottom: 4px;
   overflow:auto;
@@ -10,11 +8,13 @@
 
   .link {
     float: right;
-    height: 50px;
+    height: 30px;
     width: 100px;
     box-shadow: -3px 3px 5px #999;
     text-align: center;
     color: aliceblue;
+    border-radius: 10px;
+    font-family: "Pacifico", cursive;
   }
   
   .link:hover {
@@ -22,21 +22,4 @@
     color: grey;
   }
 
-  /* #portfolio-link {
-    color: aliceblue;
-    float: right;
-    height: 50px;
-    width: 100px;
-    box-shadow: -3px 3px 5px #999;
-    text-align: center;
-  }
-
-  #contact-link {
-    color: aliceblue;
-    float: right;
-    height: 50px;
-    width: 100px;
-    box-shadow: -3px 3px 5px #999;
-    text-align: center;
-    clear: both;
-  } */
+  

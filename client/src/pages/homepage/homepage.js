@@ -5,7 +5,7 @@ import AboutMeCard from "../../components/aboutMeCard";
 
 const Homepage = () => (
   <div className="homepage">
-    <HomepageTitle>Homepage!</HomepageTitle>
+    <HomepageTitle>Alicia Stack</HomepageTitle>
     <AboutMeCard />
   </div>
 

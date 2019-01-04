@@ -1,5 +1,8 @@
+import "../../assets/fonts.css"
+import "./navbar.css";
 import React from "react";
-import "./navbar.css"
+
+
 
 const Navbar = () => (
     <nav className="navBar">

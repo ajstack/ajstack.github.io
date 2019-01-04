@@ -1,11 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./index.css";
+import "./App.css";
 import Navbar from "./components/navbar";
 import Homepage from "./pages/homepage"
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
 import NoMatch from "./pages/NoMatch";
-import "./index.css";
+
 
 const App = () => (
   <div className="body">
