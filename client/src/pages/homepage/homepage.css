@@ -1,5 +1,6 @@
   .homepage { 
-    background: url("/images/congruent_pentagon.png"); 
+    /* background: url("/images/congruent_pentagon.png");  */
+    background: url("/images/stardust.png");
     height: 100%;
     position: fixed; 
     top: 0; 

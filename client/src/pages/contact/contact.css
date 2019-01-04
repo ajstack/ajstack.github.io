@@ -1,5 +1,6 @@
 .contact { 
-  background: url("/images/cloudy-day.png"); 
+  /* background: url("/images/cloudy-day.png");  */
+  background: url("/images/stardust.png");
   position: absolute;
   min-height: 100%;
   background-size: cover; 
@@ -11,7 +12,8 @@
 @media only screen and (min-width: 768px) {
   /* for desktop */
   .contact { 
-    background: url("/images/cloudy-day.png"); 
+    /* background: url("/images/cloudy-day.png");  */
+    background: url("/images/stardust.png");
     position: absolute; 
     top: 0; 
     left: 0; 

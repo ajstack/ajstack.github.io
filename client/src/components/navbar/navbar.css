@@ -1,20 +1,29 @@
 .navBar {
-  background-image: url("/images/greyfloral.png");
-  background-size: "cover";
+  /* background-image: url("/images/greyfloral.png"); */
+  /* background-size: "cover"; */
+  color: aliceblue;
   height: 100%;
   padding-bottom: 4px;
   overflow:auto;
+
   }
 
-  .home-link {
+  .link {
     float: right;
     height: 50px;
     width: 100px;
     box-shadow: -3px 3px 5px #999;
     text-align: center;
-  } 
+    color: aliceblue;
+  }
   
-   .portfolio-link {
+  .link:hover {
+    background-color: aliceblue;
+    color: grey;
+  }
+
+  /* #portfolio-link {
+    color: aliceblue;
     float: right;
     height: 50px;
     width: 100px;
@@ -22,11 +31,12 @@
     text-align: center;
   }
 
-  .contact-link {
+  #contact-link {
+    color: aliceblue;
     float: right;
     height: 50px;
     width: 100px;
     box-shadow: -3px 3px 5px #999;
     text-align: center;
     clear: both;
-  }
+  } */
