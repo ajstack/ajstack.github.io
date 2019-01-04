@@ -14,12 +14,15 @@
     text-align: center;
     color: aliceblue;
     border-radius: 10px;
-    font-family: "Pacifico", cursive;
+    font-family: 'Thasadith', sans-serif;
+    padding-top: 7px;
   }
   
   .link:hover {
     background-color: aliceblue;
     color: grey;
+    font-family: "Pacifico", cursive;
+    padding-bottom: 5px;
   }
 
   
