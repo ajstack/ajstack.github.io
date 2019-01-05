@@ -1,5 +1,4 @@
 .portfolio {
-  /* background: url("/images/fancy-cushion.png");  */
   background: url("/images/stardust.png");
   min-height: 100%;
   position: absolute; 
@@ -7,21 +6,12 @@
   z-index: -1;
 }
 
-
-
-
-
 @media only screen and (min-width: 768px) {
 /* for desktop */
 .portfolio { 
-    /* background: url("/images/fancy-cushion.png");  */
     background: url("/images/stardust.png");
     position: absolute; 
     background-repeat: repeat;
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
     background-size: cover;
     height: 100%; 
     z-index: -1;

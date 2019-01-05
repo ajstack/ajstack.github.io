@@ -1,8 +1,7 @@
   .homepage { 
-    /* background: url("/images/congruent_pentagon.png");  */
     background: url("/images/stardust.png");
     height: 100%;
-    position: fixed; 
+    position: relative; 
     top: 0; 
     left: 0; 
     right: 0; 
@@ -10,4 +9,19 @@
     background-size: cover; 
     z-index: -1;
     padding-top: 25px;
+  }
+  
+  .portfolio-section {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* for desktop */
+    .portfolio-section { 
+      background: url("/images/stardust.png");
+      background-size: cover;
+      height: 100%; 
+      z-index: -1;
+      background-repeat: repeat;
+    }
   }
