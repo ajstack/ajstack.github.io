@@ -1,3 +1,7 @@
 .portfolio-title {
   color: aliceblue;
+  font-family: 'Charm', cursive;
+  background: rgb(187, 190, 202);
+  color: rgb(61, 61, 61);
+  padding-left: 17px;
 }
