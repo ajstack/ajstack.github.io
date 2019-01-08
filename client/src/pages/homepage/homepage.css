@@ -15,12 +15,26 @@
     width: 100%;
   }
 
+  .contact-me-section {
+    width: 100%;
+  }
+
   @media only screen and (min-width: 768px) {
     /* for desktop */
     .portfolio-section { 
       background: url("/images/stardust.png");
       background-size: cover;
       height: 100%; 
+      z-index: -1;
+      background-repeat: repeat;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* for desktop */
+    .contact-section { 
+      background: url("/images/stardust.png");
+      background-size: cover; 
       z-index: -1;
       background-repeat: repeat;
     }

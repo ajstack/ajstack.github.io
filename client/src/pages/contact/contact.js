@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import "./contact.css";
 import Wrapper from "../../components/Wrapper";
 import ContactTitle from "../../components/contactTitle";
 import ContactInfoCard from "../../components/contactInfoCard";
 import contactInfo from "../../assets/contact.json";
 import CreditInfo from "../../components/creditInfo";
-import "./contact.css";
+
 
 class Contact extends Component {
   state = {
