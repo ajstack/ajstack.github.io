@@ -17,7 +17,6 @@ const AboutMeCard = () => (
       </b>
       </p>
     </div>
-
   </div>
 );
 

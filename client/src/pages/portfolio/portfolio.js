@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Wrapper from "../../components/Wrapper";
 import ProjectCard from "../../components/projectCard";
-import PortfolioTitle from "../../components/portfolioTitle"
-import projects from "../../assets/projects.json"
+import PortfolioTitle from "../../components/portfolioTitle";
+import projects from "../../assets/projects.json";
 import "./portfolio.css";
 
 class Portfolio extends Component {

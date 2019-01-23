@@ -1,0 +1,32 @@
+[
+    {
+        "id": "0",
+        "skill": "JavaScript",
+        "image": ""
+    },
+    {
+        "id": "1",
+        "skill": "Node.js",
+        "image": ""
+    },
+    {
+        "id": "2",
+        "skill": "jQuery",
+        "image": ""
+    },
+    {
+        "id": "3",
+        "skill": "HTML",
+        "image": ""
+    },
+    {
+        "id": "4",
+        "skill": "CSS",
+        "image": ""
+    },
+    {
+        "id": "5",
+        "skill": "Bootstrap",
+        "image": ""
+    }
+]
