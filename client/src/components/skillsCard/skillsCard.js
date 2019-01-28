@@ -3,6 +3,7 @@ import Wrapper from "../../components/Wrapper";
 import Skill from "../skill";
 import skillset from "../../assets/skills.json";
 import "./skillsCard.css";
+import "../../assets/fonts.css";
 
 class SkillsCard extends Component {
 
@@ -13,16 +14,18 @@ class SkillsCard extends Component {
   render() {
     return (
       <div className="skills-card">
-        <h2 className="skills-title">Skills</h2>
         <Wrapper>
+          <h2 className="skills-title">Skills</h2>
           {this.state.skillset.map(skill => (
             <ul className="skills-list">
-              <Skill
-                id={skill.id}
-                key={skill.id}
-                // image={skill.image}
-                skill={skill.skill}
-              />
+              <b>
+                <Skill
+                  id={skill.id}
+                  key={skill.id}
+                  // image={skill.image}
+                  skill={skill.skill}
+                />
+              </b>
             </ul>
           ))}
         </Wrapper>

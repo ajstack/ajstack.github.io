@@ -5,15 +5,17 @@ import AboutMeCard from "../../components/aboutMeCard";
 import Portfolio from "../portfolio";
 import SkillsCard from "../../components/skillsCard/skillsCard";
 
-
 const Homepage = () => (
   <div className="container">
     <div className="homepage">
       <HomepageTitle>Alicia Stack</HomepageTitle>
+    </div>
+
+    <div className="about-me">
       <AboutMeCard />
     </div>
 
-    <div className="skills-card">
+    <div className="skill-list">
       <SkillsCard />
     </div>
 

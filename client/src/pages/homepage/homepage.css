@@ -1,5 +1,7 @@
-  .homepage { 
+  .container {
     background: url("/images/stardust.png");
+  }
+  .homepage { 
     height: 100%;
     position: relative; 
     top: 0; 
@@ -7,12 +9,26 @@
     right: 0; 
     bottom: 0; 
     background-size: cover; 
-    z-index: -1;
     padding-top: 25px;
+    margin-right: 0px;
   }
   
+  /* .skill-list{
+    background: rgb(187, 190, 202);
+    border-radius: 2px;
+    height: 325px;
+    position: relative;
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    box-shadow: 0 3px 6px rgb(49, 47, 47), 0 3px 6px rgb(49, 47, 47);
+    text-align: left;
+    float: left;
+  } */
+
   .portfolio-section {
     width: 100%;
+    clear: both;
   }
 
   .contact-me-section {
@@ -21,19 +37,19 @@
 
   @media only screen and (min-width: 768px) {
     /* for desktop */
+    .about-me {
+      float: left;
+    }
+
     .portfolio-section { 
-      background: url("/images/stardust.png");
       background-size: cover;
       height: 100%; 
       z-index: -1;
       background-repeat: repeat;
+      clear: both;
     }
-  }
 
-  @media only screen and (min-width: 768px) {
-    /* for desktop */
     .contact-section { 
-      background: url("/images/stardust.png");
       background-size: cover; 
       z-index: -1;
       background-repeat: repeat;
