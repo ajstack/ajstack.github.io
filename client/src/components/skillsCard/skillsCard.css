@@ -3,8 +3,9 @@
   border-radius: 2px;
   height: 325px;
   position: relative;
-  width: 30%;
   margin-left: 10px;
+  margin-top: 350px;
+  margin-right: 10px;
   box-shadow: 0 3px 6px rgb(49, 47, 47), 0 3px 6px rgb(49, 47, 47);
   text-align: left;
   color: rgb(61, 61, 61);
@@ -20,17 +21,19 @@
 .skills-list {
   font-family: 'Thasadith', sans-serif;
   font-size: 22px;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 @media only screen and (min-width: 768px) {
+  /* for desktop */
   .skills-card {
     background: rgb(187, 190, 202);
     border-radius: 2px;
     height: 325px;
     position: relative;
     width: 30%;
-    margin-left: 360px; 
+    margin-left: 400px;
+    margin-top: 0px;
     box-shadow: 0 3px 6px rgb(49, 47, 47), 0 3px 6px rgb(49, 47, 47);
     text-align: left;
   }
