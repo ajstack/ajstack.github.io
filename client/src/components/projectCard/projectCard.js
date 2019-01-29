@@ -1,5 +1,6 @@
 import React from "react";
 import "./projectCard.css"
+import "../../assets/fonts.css"
 
 const ProjectCard = props => (
   <div className="project-card">
@@ -7,7 +8,9 @@ const ProjectCard = props => (
       <img alt={props.name} src={props.image} />
     </div>
     <div className="project-content">
-      <a href={props.link}><h3 className="project-title">{props.name}</h3></a>
+      <a className="project-title" href={props.link}>
+        <h3>{props.name}</h3>
+      </a>
     </div>
   </div>
 );

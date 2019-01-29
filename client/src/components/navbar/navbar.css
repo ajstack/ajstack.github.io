@@ -14,8 +14,9 @@
     text-align: center;
     color: aliceblue;
     border-radius: 10px;
-    font-family: 'Thasadith', sans-serif;
+    font-family: "Thasadith", sans-serif;
     padding-top: 7px;
+    text-decoration: none;
   }
   
   .link:hover {
