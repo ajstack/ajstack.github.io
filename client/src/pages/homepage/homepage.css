@@ -1,6 +1,8 @@
   .container {
     background: url("/images/stardust.png");
+    background-size: cover; 
   }
+  
   .homepage { 
     height: 100%;
     position: relative; 
@@ -12,19 +14,6 @@
     padding-top: 25px;
     margin-right: 0px;
   }
-  
-  /* .skill-list{
-    background: rgb(187, 190, 202);
-    border-radius: 2px;
-    height: 325px;
-    position: relative;
-    width: 30%;
-    margin-left: 10px;
-    margin-bottom: 100px;
-    box-shadow: 0 3px 6px rgb(49, 47, 47), 0 3px 6px rgb(49, 47, 47);
-    text-align: left;
-    float: left;
-  } */
 
   .portfolio-section {
     width: 100%;
