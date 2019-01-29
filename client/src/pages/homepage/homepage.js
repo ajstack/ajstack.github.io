@@ -4,6 +4,7 @@ import HomepageTitle from "../../components/homepageTitle";
 import AboutMeCard from "../../components/aboutMeCard";
 import Portfolio from "../portfolio";
 import SkillsCard from "../../components/skillsCard/skillsCard";
+import PictureCard from "../../components/pictureCard/pictureCard";
 
 const Homepage = () => (
   <div className="container">
@@ -17,6 +18,10 @@ const Homepage = () => (
 
     <div className="skill-list">
       <SkillsCard />
+    </div>
+
+    <div className="img-card">
+      <PictureCard />
     </div>
 
     <div className="portfolio-section">
