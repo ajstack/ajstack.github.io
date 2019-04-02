@@ -4,7 +4,7 @@
   height: 325px;
   position: relative;
   margin-left: 10px;
-  margin-top: 335px;
+  margin-top: 607px;
   margin-right: 10px;
   box-shadow: 0 3px 6px rgb(49, 47, 47), 0 3px 6px rgb(49, 47, 47);
   text-align: left;
@@ -32,15 +32,24 @@
     height: 325px;
     position: relative;
     width: 30%;
-    margin-left: 550px;
-    margin-top: 0px;
+    /* margin-left: 550px; */
+    margin-top: -325px;
     box-shadow: 0 3px 6px rgb(49, 47, 47), 0 3px 6px rgb(49, 47, 47);
     text-align: left;
   }
 
   .skills-title {
+    font-size: 40px;
     margin-top: 0px;
     padding-top: 32px;
     text-align: center;
+  }
+
+  .skills-list {
+    font-size: 30px;
+    margin-top: -30px;
+    margin-bottom: -5px;
+    width: 30%;
+    float: left;
   }
 }

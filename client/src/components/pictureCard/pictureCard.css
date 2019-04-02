@@ -7,7 +7,6 @@
   margin-top: 10px;
   margin-right: 10px;
   box-shadow: 0 3px 6px rgb(49, 47, 47), 0 3px 6px rgb(49, 47, 47);
-  text-align: left;
   color: rgb(61, 61, 61);
 }
 
@@ -24,18 +23,16 @@
     background: rgb(187, 190, 202);
     border-radius: 2px;
     height: 325px;
-    position: relative;
+    position: absolute;
     width: 30%;
-    margin-left: 1075px;
-    margin-top: -325px;
+    margin-top: 0px;
     box-shadow: 0 3px 6px rgb(49, 47, 47), 0 3px 6px rgb(49, 47, 47);
-    text-align: left;
   }
 
   .picture-card > img {
     width: 60%;
     height: auto;
-    padding-top: 15px;
+    padding-top: 13px;
     padding-left: 95px;
   }
 }

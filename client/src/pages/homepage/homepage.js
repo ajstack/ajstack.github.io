@@ -12,19 +12,21 @@ const Homepage = () => (
       <HomepageTitle>Alicia Stack</HomepageTitle>
     </div>
 
-    <div className="about-me">
-      <AboutMeCard />
+    <div className="intro">
+      <div className="img-card">
+        <PictureCard />
+      </div>
+
+      <div className="about-me">
+        <AboutMeCard />
+      </div>
+
+      <div className="skill-list">
+        <SkillsCard />
+      </div>
     </div>
 
-    <div className="skill-list">
-      <SkillsCard />
-    </div>
-
-    <div className="img-card">
-      <PictureCard />
-    </div>
-
-    <div className="portfolio-section" id="project-section">
+    <div className="portfolio-section">
       <Portfolio />
     </div>
   </div>

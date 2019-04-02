@@ -10,7 +10,6 @@
     left: 0; 
     right: 0; 
     bottom: 0; 
-    background-size: cover; 
     padding-top: 25px;
     margin-right: 0px;
   }
@@ -20,27 +19,18 @@
     clear: both;
   }
 
-  .contact-me-section {
-    width: 100%;
-  }
-
   @media only screen and (min-width: 768px) {
     /* for desktop */
-    .about-me {
+    /* .about-me {
       float: left;
-    }
+    } */
 
     .portfolio-section { 
       background-size: cover;
-      height: 100%; 
+      width: 100%;
+      /* position: relative; */
+      /* float: left; */
+      /* height: 100%;  */
       z-index: -1;
-      background-repeat: repeat;
-      clear: both;
-    }
-
-    .contact-section { 
-      background-size: cover; 
-      z-index: -1;
-      background-repeat: repeat;
     }
   }
