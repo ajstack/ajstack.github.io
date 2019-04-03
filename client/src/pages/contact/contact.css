@@ -1,9 +1,14 @@
 .contact { 
   background: url("/images/stardust.png");
+  background-size: cover;
+  width: 100%;
   position: absolute;
   min-height: 100%;
   background-size: cover; 
   z-index: -1;
+  padding-top: 25px;
+  text-align: center;
+  margin: auto;
 }
 
 
@@ -20,5 +25,7 @@
     z-index: -1;
     background-repeat: repeat-x;
     padding-top: 25px;
+    text-align: left;
+    margin: auto;
   }
 }

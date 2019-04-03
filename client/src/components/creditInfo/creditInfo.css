@@ -1,3 +1,14 @@
+.credit-info {
+  color: aliceblue;
+  font-family: 'Charm', cursive;
+  background: rgb(187, 190, 202);
+  color: rgb(61, 61, 61);
+  padding-left: 17px;
+  width: 96%;
+  position: absolute;
+  bottom: 0px;
+}
+
 @media only screen and (min-width: 768px) {
   .credit-info {
     position: absolute;

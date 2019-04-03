@@ -5,6 +5,7 @@ import ContactTitle from "../../components/contactTitle";
 import ContactInfoCard from "../../components/contactInfoCard";
 import contactInfo from "../../assets/contact.json";
 import CreditInfo from "../../components/creditInfo";
+import Email from "../../components/email";
 
 
 class Contact extends Component {
@@ -17,6 +18,7 @@ class Contact extends Component {
       <div className="contact">
         <Wrapper>
           <ContactTitle>Contact Me</ContactTitle>
+          <Email>a.j.stack@sbcglobal.net</Email>
           {this.state.contactInfo.map(contact => (
             <ContactInfoCard
               id={contact.id}

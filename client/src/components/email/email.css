@@ -1,0 +1,15 @@
+.email-address {
+    color: aliceblue;
+    font-family: 'Charm', cursive;
+    background: rgb(187, 190, 202);
+    color: rgb(61, 61, 61);
+    padding-left: 17px;
+    text-align: center;
+    
+  }
+
+  @media only screen and (min-width: 768px) {
+    .email-address {
+      font-size: 50px;
+    }
+  }
