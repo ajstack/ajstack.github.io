@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "website": "LinkedIn",
-    "url": "https://www.linkedin.com/in/alicia-stack-4b60a1156/",
-    "image": "./images/linkedin.png"
+    "website": "email",
+    "url": "mailto: a.j.stack@sbcglobal.net",
+    "image": "./images/email.png"
   },
   {
     "id": 1,
@@ -13,8 +13,8 @@
   },
   {
     "id": 2,
-    "website": "email",
-    "url": "mailto: a.j.stack@sbcglobal.net",
-    "image": "./images/email.png"
+    "website": "LinkedIn",
+    "url": "https://www.linkedin.com/in/alicia-stack-4b60a1156/",
+    "image": "./images/linkedin.png"
   }
 ]

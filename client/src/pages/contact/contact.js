@@ -16,20 +16,22 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact">
-        <Wrapper>
-          <ContactTitle>Contact Me</ContactTitle>
-          <Email>a.j.stack@sbcglobal.net</Email>
-          {this.state.contactInfo.map(contact => (
-            <ContactInfoCard
-              id={contact.id}
-              key={contact.id}
-              image={contact.image}
-              website={contact.website}
-              url={contact.url}
-            />
-          ))}
-          <CreditInfo />
-        </Wrapper>
+        <div className="main-page">
+          <Wrapper>
+            <ContactTitle>Contact Me</ContactTitle>
+            <Email>a.j.stack@sbcglobal.net</Email>
+            {this.state.contactInfo.map(contact => (
+              <ContactInfoCard
+                id={contact.id}
+                key={contact.id}
+                image={contact.image}
+                website={contact.website}
+                url={contact.url}
+              />
+            ))}
+          </Wrapper>
+        </div>
+        <CreditInfo />
       </div>
     )
   }
