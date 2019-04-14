@@ -9,7 +9,7 @@ const Navbar = () => (
       <a id="contact-link" className="link" href="/contact">
         Contact me!
       </a>
-      <a id="portfolio-link" className="link" href="/#project-section">
+      <a id="portfolio-link" className="link" href="/#portfolio">
         Portfolio
       </a>
       <a id="home-link" className="link" href="/">

@@ -26,7 +26,7 @@ const Homepage = () => (
       </div>
     </div>
 
-    <div className="portfolio-section" id="project-section">
+    <div className="portfolio-section" id="portfolio">
       <Portfolio />
     </div>
   </div>

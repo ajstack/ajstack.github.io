@@ -10,5 +10,11 @@
     "website": "Github",
     "url": "https://github.com/ajstack",
     "image": "./images/github.png"
+  },
+  {
+    "id": 2,
+    "website": "email",
+    "url": "mailto: a.j.stack@sbcglobal.net",
+    "image": "./images/email.png"
   }
 ]
