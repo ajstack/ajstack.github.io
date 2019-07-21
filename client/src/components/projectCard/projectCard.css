@@ -22,6 +22,10 @@
     height: 100%;
   }
   
+  .project-card > .project-img-container > .project-summary {
+    position: relative;
+  }
+
   .project-card > .project-content {
     padding-left: 1rem;
     padding-right: 1rem;

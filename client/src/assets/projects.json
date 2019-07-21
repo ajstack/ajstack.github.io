@@ -4,34 +4,39 @@
     "name": "Gem Collector",
     "image": "./images/gemstone.jpg",
     "link": "https://ajstack.github.io/Gem-Collector/",
-    "githubLink": "https://github.com/ajstack/Gem-Collector"
+    "githubLink": "https://github.com/ajstack/Gem-Collector",
+    "summary": "Point and click puzzle game"
   },
   {
     "id": 1,
     "name": "Hangman",
     "image": "./images/batmanPhoto.jpg",
     "link": "https://ajstack.github.io/Word-Guess-Game/",
-    "githubLink": "https://github.com/ajstack/Word-Guess-Game"
+    "githubLink": "https://github.com/ajstack/Word-Guess-Game",
+    "summary":"Basic Hangman game"
   },
   {
     "id": 2,
     "name": "Bamazon",
     "image": "./images/bamazon.gif",
     "link": "https://github.com/ajstack/bamazon",
-    "githubLink": "https://github.com/ajstack/bamazon"
+    "githubLink": "https://github.com/ajstack/bamazon",
+    "summary":"'Buy' items from a database"
   },
   {
     "id": 3,
     "name": "Train Scheduler",
     "image": "./images/train.png",
     "link": "https://ajstack.github.io/Train_Scheduler/",
-    "githubLink": "https://github.com/ajstack/Train_Scheduler"
+    "githubLink": "https://github.com/ajstack/Train_Scheduler",
+    "summary":"Create a train schedule"
   },
   {
     "id": 4,
     "name": "Giftastic!",
     "image": "./images/dog.jpg",
     "link": "https://ajstack.github.io/GIFtastic/",
-    "githubLink": "https://github.com/ajstack/GIFtastic"
+    "githubLink": "https://github.com/ajstack/GIFtastic",
+    "summary":"Choose a topic to dispaly gifs"
   }
 ]
